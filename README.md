@@ -19,4 +19,3 @@ http://127.0.0.1:5173/
 ## GitHub Pages
 
 This is a static site. It can be published from the repository root with GitHub Pages.
-
