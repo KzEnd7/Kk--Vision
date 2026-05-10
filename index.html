@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="孙康凯 / KK Vision - calm mind, wild AI. A bilingual personal resume for AI-native product building and vibecoding."
+    />
+    <title>孙康凯 - KK Vision</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Noto+Serif+SC:wght@400;600&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand-mark" href="#top" aria-label="KK Vision home">
+        <span>K K</span>
+        <span>V I</span>
+        <span>S I O N</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about" data-i18n="navAbout">关于</a>
+        <a href="#now" data-i18n="navNow">现在</a>
+        <a href="#contact" data-i18n="navContact">联系</a>
+        <button class="lang-toggle" type="button" aria-label="Switch language">
+          <span data-lang-label>EN</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">KK Vision / AI Productivity / Tools / Ideas</p>
+          <h1 id="hero-title" data-i18n="heroTitle">你好，我是孙康凯。</h1>
+          <p class="hero-line" data-i18n="heroLine">我很冷静，但 AI 很离谱。</p>
+          <p class="hero-subcopy" data-i18n="heroSubcopy">
+            我用 AI、前端和设计直觉，把模糊想法快速做成可用、好看、甚至有点离谱的产品体验。
+          </p>
+        </div>
+
+        <figure class="portrait-wrap" aria-label="Portrait of Kangkai Sun">
+          <img
+            src="./assets/kangkai-hero-source.png"
+            alt="孙康凯坐在工作台前的黑白半身肖像"
+            class="portrait"
+          />
+        </figure>
+      </section>
+
+      <section class="signal-strip" aria-label="Core signals">
+        <span>AI</span>
+        <span>Vibecoding</span>
+        <span>Frontend</span>
+        <span>Product Taste</span>
+        <span>Automation</span>
+      </section>
+
+      <section class="statement" id="about" aria-label="About">
+        <p data-i18n="statementOne">
+          我擅长在信息还不完整的时候保持冷静，把看起来离谱的 AI 想法拆成可以执行的界面、流程和产品原型。
+        </p>
+        <p data-i18n="statementTwo">
+          我喜欢那种从一句话开始，几个小时后就能摸到真实产品的速度。不是为了炫技，而是为了更快判断一个想法是否值得继续。
+        </p>
+        <p data-i18n="statementThree">
+          我的个人审美偏向克制、清晰、可用：像工程师一样落地，像设计师一样在意细节，像创业者一样追结果。
+        </p>
+      </section>
+
+      <section class="timeline-section" id="now" aria-label="Current focus">
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-pin" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-date" data-i18n="timelineDate">现在</p>
+              <h2>KK Vision</h2>
+              <p class="timeline-role" data-i18n="timelineRole">AI Native Builder / Vibecoder</p>
+              <p class="timeline-desc" data-i18n="timelineDesc">
+                正在探索 AI 生产力工具、个人自动化、前端体验和从想法到可运行产品的最短路径。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-label="Contact">
+        <p class="contact-kicker">Available for AI-native product experiments.</p>
+        <h2 data-i18n="contactTitle">保持冷静，开始构建。</h2>
+        <div class="contact-actions">
+          <a href="mailto:Kz.end@qq.com">Kz.end@qq.com</a>
+          <a href="tel:+8617000160003">+86 17000160003</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
